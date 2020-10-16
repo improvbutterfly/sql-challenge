@@ -64,3 +64,8 @@ FROM employees
 GROUP BY last_name
 ORDER BY "No of employees with last_name" DESC;
 
+-- Epilogue
+-- Find "my" employee information
+SELECT * FROM employees
+WHERE emp_no = '499942';
+-- LOL April Foolsday
