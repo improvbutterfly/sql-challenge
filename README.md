@@ -23,6 +23,8 @@ Entity Relationship Diagram:
 
 Data requested can be found in [/sql/select_data.sql](/sql/select_data.sql)
 
-#### Bonus Histogram
+#### Bonus Charts
 
 ![Common Salary Ranges for Employees](images/salary_histogram.png)
+
+![Average Salary by Job Title](images/salary_by_title.png)

@@ -64,6 +64,17 @@ FROM employees
 GROUP BY last_name
 ORDER BY "No of employees with last_name" DESC;
 
+-- Find average salary by title
+SELECT t.title, round(avg(s.salary))
+FROM salaries s
+LEFT JOIN employees e
+ON e.emp_no = s.emp_no
+LEFT JOIN titles t
+ON e.emp_title_id = t.title_id
+GROUP BY t.title;
+
+SELECT * FROM employees;
+
 -- Epilogue
 -- Find "my" employee information
 SELECT * FROM employees
