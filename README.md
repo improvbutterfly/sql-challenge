@@ -22,3 +22,7 @@ Entity Relationship Diagram:
 ### Data Analysis
 
 Data requested can be found in [/sql/select_data.sql](/sql/select_data.sql)
+
+#### Bonus Histogram
+
+![Common Salary Ranges for Employees](images/salary_histogram.png)
